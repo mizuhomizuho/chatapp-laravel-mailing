@@ -1,0 +1,8 @@
+
+services:
+  opensearch:
+    build:
+      context: .
+    container_name: redis_latest
+    ports:
+      - "56379:6379"
