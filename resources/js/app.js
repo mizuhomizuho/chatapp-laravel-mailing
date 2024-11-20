@@ -61,7 +61,7 @@ class MailingCreate {
                     return;
                 }
                 const patentBox = e.currentTarget.closest(this.#phoneAddBoxSelector);
-                patentBox.remove()
+                patentBox.remove();
             });
         });
     }
@@ -86,7 +86,7 @@ class MailingIndex {
 
         if (document.querySelector(this.#listItemsStatusNewSelector)) {
             setTimeout(() => {
-                location.reload()
+                location.reload();
             }, 888);
         }
     }
