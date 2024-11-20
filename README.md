@@ -22,7 +22,7 @@ https://github.com/mizuhomizuho/kubernetes-k8s-bitrix-php-nginx-mysql
 
 ## Url:
 
-https://opogalaf.beget.app
+https://opogalaf.beget.app (need login and password)
 
 ## Screenshots:
 
