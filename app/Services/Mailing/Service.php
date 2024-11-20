@@ -33,7 +33,12 @@ class Service
 
         $delaySum = 0;
         foreach ($insertIds as $insertNum => $insertId) {
-            $randDelayStep = $this->getRandDelay();
+            if ($insertNum) {
+                $randDelayStep = $this->getRandDelay();
+            }
+            else {
+                $randDelayStep = 0;
+            }
             SendJob::dispatch(
                 $insertId,
                 $dataForInsert[$insertNum]['phone'],
