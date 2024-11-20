@@ -119,9 +119,9 @@ class Service
         return [
             'method' => 'tokens',
             'params' => [
-                'email' => env('CHATAPP_EMAIL', ''),
-                'password' => env('CHATAPP_PASSWORD', ''),
-                'appId' => env('CHATAPP_APPID', ''),
+                'email' => config('my.chatapp_email', ''),
+                'password' => config('my.chatapp_password', ''),
+                'appId' => config('my.chatapp_appid', ''),
             ],
         ];
     }
@@ -180,7 +180,7 @@ class Service
     {
         $chatId = $phone;
         $token = $this->getToken();
-        $licenseId = env('CHATAPP_LICENSE_ID', '');
+        $licenseId = config('my.chatapp_license_id', '');
         $messengerType = 'grWhatsApp';
 
         $this->queryParams = [

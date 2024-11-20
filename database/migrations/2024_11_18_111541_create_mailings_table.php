@@ -22,9 +22,9 @@ return new class extends Migration
         });
 
         User::create([
-            'name' => env('FIRST_USER_NAME', ''),
-            'email' => env('FIRST_USER_EMAIL', ''),
-            'password' => bcrypt(env('FIRST_USER_PASSWORD', '')),
+            'name' => config('my.first_user_name', ''),
+            'email' => config('my.first_user_email', ''),
+            'password' => bcrypt(config('my.first_user_password', '')),
         ]);
     }
 
