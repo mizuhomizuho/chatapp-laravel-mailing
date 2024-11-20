@@ -194,8 +194,6 @@ class Service
         ];
         $res = $this->apiQuery();
 
-        \Log::info('$res---------: ' . var_export($res, 1));
-
         if ($this->checkGoodSendMsgResult($res)) {
             return $res['data'];
         }
