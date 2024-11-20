@@ -4,6 +4,10 @@
 
 https://github.com/mizuhomizuho/kubernetes-k8s-bitrix-php-nginx-mysql
 
+## Task definition:
+
+[PDF](https://github.com/mizuhomizuho/chatapp-laravel-mailing/blob/master/ChatApp-sending.pdf)
+
 ## Version:
 
 - Laravel 10
