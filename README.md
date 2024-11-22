@@ -24,10 +24,6 @@
 - Bootstrap 5.3
 - Guzzle 7.9
 
-## Url:
-
-https://opogalaf.beget.app (need login and password)
-
 ## Screenshots:
 
 <img style="width: 100%;height: auto" src="https://raw.githubusercontent.com/mizuhomizuho/chatapp-laravel-mailing/refs/heads/master/screenshots/Screenshot_615.png">
