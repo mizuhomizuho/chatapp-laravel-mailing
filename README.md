@@ -1,9 +1,5 @@
 # LARAVEL CHATAPP MAILING
 
-## Please also read:
-
-https://github.com/mizuhomizuho/kubernetes-k8s-bitrix-php-nginx-mysql
-
 ## Task definition:
 
 - Need to implement a micro project - distribution of text messages to a list of WhatsApp phone numbers.
